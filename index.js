@@ -5,4 +5,4 @@ app.get('/', (req, res) => {
     return "Hello World"
 })
 
-app.listen(8000)
+console.log('server running')
