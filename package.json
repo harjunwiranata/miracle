@@ -1,0 +1,28 @@
+{
+  "name": "miracle-api",
+  "version": "0.0.1",
+  "description": "API for all Oh My Girl archives and activities",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node database/seeder/seeder.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harjunwiranata/miracle-api.git"
+  },
+  "keywords": [
+    "ohmygirl",
+    "miracle"
+  ],
+  "author": "harjunwiranata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harjunwiranata/miracle-api/issues"
+  },
+  "homepage": "https://github.com/harjunwiranata/miracle-api#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
